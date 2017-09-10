@@ -41,6 +41,10 @@ To download the BIN files for CPH-Inter database and the corresponding labels (c
 
 https://drive.google.com/open?id=0Bzxdhi861FZadzl3dmdSY2EtUms
 
+To download the original YUV files (compressed in 31 files), visit:
+
+http://pan.baidu.com/s/1i5oYBRJ
+
 ## References
 
 If the CPH database is helpful to your research, please cite this paper:
@@ -51,7 +55,7 @@ Other references are listed below:
 
 [2] D.-T. Dang-Nguyen, C. Pasquini, V. Conotter, and G. Boato, RAISE: A Raw Images Dataset for Digital Image Forensics, in: Proceedings of the 6th ACM Multimedia Systems Conference, 2015, pp. 219–224.
 
-[3] JCT-VC, HM Software, [Online]. Available: https://hevc.hhi.fraunhofer.de/svn/svn\_HEVCSoftware/tags/HM-16.5/, [Accessed 5-Nov.-2016] (2014).
+[3] JCT-VC, HM Software, [Online]. Available: https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/HM-16.5/, [Accessed 5-Nov.-2016] (2014).
 
 [4] M. Xu, X. Deng, S. Li, Z. Wang, Region-of-interest Based Conversational HEVC Coding with Hierarchical Perception Model of Face, IEEE Journal of Selected Topics in Signal Processing 8 (3) (2014) 475–489.
 
