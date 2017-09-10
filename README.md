@@ -51,7 +51,7 @@ Other references are listed below:
 
 [2] D.-T. Dang-Nguyen, C. Pasquini, V. Conotter, and G. Boato, RAISE: A Raw Images Dataset for Digital Image Forensics, in: Proceedings of the 6th ACM Multimedia Systems Conference, 2015, pp. 219–224.
 
-[3] JCT-VC, HM Software, [Online]. Available: https://hevc.hhi.fraunhofer.de/svn/svn HEVCSoftware/tags/HM-16.5/, [Accessed 5-Nov.-2016] (2014).
+[3] JCT-VC, HM Software, [Online]. Available: https://hevc.hhi.fraunhofer.de/svn/svn\_HEVCSoftware/tags/HM-16.5/, [Accessed 5-Nov.-2016] (2014).
 
 [4] M. Xu, X. Deng, S. Li, Z. Wang, Region-of-interest Based Conversational HEVC Coding with Hierarchical Perception Model of Face, IEEE Journal of Selected Topics in Signal Processing 8 (3) (2014) 475–489.
 
