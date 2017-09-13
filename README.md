@@ -50,6 +50,7 @@ http://pan.baidu.com/s/1i5oYBRJ
 If the CPH database is helpful to your research, please cite this paper:
 
 [1] T. Li, M. Xu and X. Deng, "A deep convolutional neural network approach for complexity reduction on intra-mode HEVC," 2017 IEEE International Conference on Multimedia and Expo (ICME), Hong Kong, Hong Kong, 2017, pp. 1255-1260.
+
 doi: 10.1109/ICME.2017.8019316
 
 keywords: {Complexity theory;Copper;Databases;Encoding;Kernel;Standards;Video coding;High efficiency video coding;complexity reduction;convolutional neural network;intra-mode coding},
