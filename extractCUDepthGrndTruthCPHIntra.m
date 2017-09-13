@@ -1,7 +1,7 @@
 function extractCUDepthGrndTruthCPIH
     % This program transfers raw image and label files to samples that are directly available for deep CNNs,
     % in order to establish a large-scale database for CU partition of 
-    % intra-mode HEVC (CPIH). 
+    % intra-mode HEVC (CPH-Intra). 
     
     % All images are stored in 12 YUV files, arranged by resolutions and
     % usages (training, validation and test).
