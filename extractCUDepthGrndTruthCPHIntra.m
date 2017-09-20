@@ -184,11 +184,11 @@ function nSamplesMatrix=extractCUDepthGrndTruth(...
                     end
                 end
                 
-                isValid32=0;
                 widthIn32=floor(size(info{k},2)/2);
                 heightIn32=floor(size(info{k},1)/2);
                 for y=1:heightIn32
                     for x=1:widthIn32
+                        isValid32=0;
                         infoYIn32x32(:,:)=matrixY((y-1)*32+1:y*32,(x-1)*32+1:x*32);
                         infoCUDepthIn32x32=info{k}((y-1)*2+1:y*2,(x-1)*2+1:x*2,iFrame+1);
                         if infoCUDepthIn32x32(1,1)>=2
@@ -208,11 +208,11 @@ function nSamplesMatrix=extractCUDepthGrndTruth(...
                     end
                 end
                 
-                isValid16=0;
                 widthIn16=size(info{k},2);
                 heightIn16=size(info{k},1);
                 for y=1:heightIn16
                     for x=1:widthIn16
+                        isValid16=0;
                         infoYIn16x16(:,:)=matrixY((y-1)*16+1:y*16,(x-1)*16+1:x*16);
                         infoCUDepthIn16x16=info{k}(y,x,iFrame+1);
                         if infoCUDepthIn16x16(1,1)==3
