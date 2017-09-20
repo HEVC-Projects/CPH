@@ -29,7 +29,7 @@ https://drive.google.com/open?id=0B-x4IFNM0upjSVh0NEgtRXV0ajQ
 
 https://drive.google.com/open?id=0B-x4IFNM0upjY2JDclFsZEtjdU0
 
-Extract all data above to get 12 YUV files and 8 DAT files. Then execute "extractCUDepthGrndTruthCPHIntra.m" to generate all the training, validation and test samples.
+Extract all data above to get 12 YUV files and 8 DAT files. Then execute "extractCUDepthGrndTruthCPHIntra.m" to generate all the samples.
 
 ## Database for Inter-mode
 
@@ -44,6 +44,8 @@ https://drive.google.com/open?id=0Bzxdhi861FZadzl3dmdSY2EtUms
 To download the original YUV files (compressed in 31 files), visit:
 
 http://pan.baidu.com/s/1i5oYBRJ
+
+Extract all data above to get 111 YUV files and 888 DAT files. Then execute "extractCUDepthGrndTruthCPHInter.m" to generate all the samples.
 
 ## References
 
