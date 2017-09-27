@@ -1,7 +1,7 @@
 function extractCUDepthGrndTruthCPHInter
-    % This program transfers raw video and label files to samples for training the ETH-LSTM,
-    % establishing a large-scale database for CU partition of 
-    % inter-mode HEVC (CPH-Inter). 
+    % This program transfers raw video and label files to samples for
+    % training, validation and test, establishing a large-scale database 
+    % for CU partition of inter-mode HEVC (CPH-Inter). 
     
     % The database contains 111 videos in total.
     % For each video, there are 9 corresponding input files: 
@@ -83,6 +83,7 @@ function extractCUDepthGrndTruthCPHInter
     
     filePathInput='G:\YUV_All\'; % where all input YUV files and DAT files exist
     filePathExtract='F:\YUV_All_Extract\'; % where to store the extracted samples
+    
     % Uncomment some video name(s) in the variable "yuvNameList".
     yuvNameList={...
         'BasketballPass_416x240_50'
@@ -208,6 +209,7 @@ end
 
 function filePathAndName=getFilePathAndName(filePath,keyWords1,keyWords2)
     dirOutput=dir([filePath '*' keyWords1 '*' keyWords2 '*']);
+    [filePath '*' keyWords1 '*' keyWords2 '*']
     fileNameList={dirOutput.name}';
     assert(length(fileNameList)==1);
     filePathAndName=[filePath fileNameList{1}];
@@ -284,8 +286,8 @@ function nSamplesMatrix=extractCUDepthGrndTruth(...
         end
 
         
-        widthIn32=floor(size(info,2)/2);
-        heightIn32=floor(size(info,1)/2);
+        widthIn32=widthInCTU*2;
+        heightIn32=heightInCTU*2;
         for y=1:heightIn32
             for x=1:widthIn32
                 isValid32=0;
@@ -308,8 +310,8 @@ function nSamplesMatrix=extractCUDepthGrndTruth(...
             end
         end
 
-        widthIn16=size(info,2);
-        heightIn16=size(info,1);
+        widthIn16=widthInCTU*4;
+        heightIn16=heightInCTU*4;
         for y=1:heightIn16
             for x=1:widthIn16
                 isValid16=0;
