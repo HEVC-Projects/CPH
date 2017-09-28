@@ -37,13 +37,9 @@ We further establish a database for CU Partition of HEVC at Inter-mode: the CPH-
 
 Similar to the CPH-Intra database, all sequences in our CPH-Inter database were encoded by HM 16.5 [3] with Low Delay P configuration (using encoder_lowdelay_P_main.cfg) at four QPs {22, 27, 32, 37}. Consequently, 12 sub-databases were obtained, corresponding to different QPs and CU sizes. 
 
-To download the BIN files for CPH-Inter database and the corresponding labels (compressed in one file), visit:
+To download the original YUV files (compressed in 31 files) with corresponding labels (compressed in 1 file), visit:
 
-https://drive.google.com/open?id=0Bzxdhi861FZadzl3dmdSY2EtUms
-
-To download the original YUV files (compressed in 31 files), visit:
-
-http://pan.baidu.com/s/1i5oYBRJ
+https://www.dropbox.com/sh/j4vryqwii74djfx/AABTh8aaoypmckOHe5cGJP6ha?dl=0
 
 Extract all data above to get 111 YUV files and 888 DAT files. Then execute "extractCUDepthGrndTruthCPHInter.m" to generate all the samples.
 
