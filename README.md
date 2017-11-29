@@ -35,6 +35,8 @@ https://www.dropbox.com/sh/eo5dc3h27t41etl/AAADvFKoc5nYcZw6KO9XNycZa?dl=0
 
 or Baidu Cloud Disk:
 
+https://pan.baidu.com/s/1hszUzeW
+
 From all the sources above, files are identical. Feel free to choose one that are convenient for you. 
 
 Extract all data above to get 12 YUV files and 8 DAT files. Then execute "extractCUDepthGrndTruthCPHIntra.m" to generate all the samples.
