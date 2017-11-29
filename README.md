@@ -11,7 +11,9 @@ Next, all images are encoded by the HEVC reference software HM 16.5 [3]. Specifi
 
 In total, the CPH-Intra database contains 12 sub-databases according to QP and CU size, on account that 4 QPs are applied and CUs with 3 different sizes (64×64, 32×32 and 16×16) are allowed to be split.
 
-To download original images and labels (compressed in 8 files), visit Google Drive:
+To download original images and labels (compressed in 8 files), visit 
+
+Google Drive:
 
 https://drive.google.com/open?id=0B-x4IFNM0upjWmllNDdnc182dlU
 
@@ -29,7 +31,7 @@ https://drive.google.com/open?id=0B-x4IFNM0upjSVh0NEgtRXV0ajQ
 
 https://drive.google.com/open?id=0B-x4IFNM0upjY2JDclFsZEtjdU0
 
-or DropBox:
+or Dropbox:
 
 https://www.dropbox.com/sh/eo5dc3h27t41etl/AAADvFKoc5nYcZw6KO9XNycZa?dl=0
 
@@ -47,9 +49,17 @@ We further establish a database for CU Partition of HEVC at Inter-mode: the CPH-
 
 Similar to the CPH-Intra database, all sequences in our CPH-Inter database were encoded by HM 16.5 [3] with Low Delay P configuration (using encoder_lowdelay_P_main.cfg) at four QPs {22, 27, 32, 37}. Consequently, 12 sub-databases were obtained, corresponding to different QPs and CU sizes. 
 
-To download the original YUV files (compressed in 31 files) with corresponding labels (compressed in 1 file), visit:
+To download the original YUV files (compressed in 31 files) with corresponding labels (compressed in 1 file), visit
+
+Dropbox:
 
 https://www.dropbox.com/sh/j4vryqwii74djfx/AABTh8aaoypmckOHe5cGJP6ha?dl=0
+
+or Baidu Cloud Disk:
+
+https://pan.baidu.com/s/1i5u2Krb
+
+From both sources above, files are identical. Feel free to choose one that are convenient for you. 
 
 Extract all data above to get 111 YUV files and 888 DAT files. Then execute "extractCUDepthGrndTruthCPHInter.m" to generate all the samples.
 
