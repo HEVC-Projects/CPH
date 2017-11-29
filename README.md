@@ -39,7 +39,7 @@ or Baidu Cloud Disk:
 
 https://pan.baidu.com/s/1hszUzeW
 
-From all the sources above, files are identical. Feel free to choose one that are convenient for you. 
+From all the sources above, files are identical. Feel free to choose one that is convenient for you. 
 
 Extract all data above to get 12 YUV files and 8 DAT files. Then execute "extractCUDepthGrndTruthCPHIntra.m" to generate all the samples.
 
@@ -59,7 +59,7 @@ or Baidu Cloud Disk:
 
 https://pan.baidu.com/s/1i5u2Krb
 
-From both sources above, files are identical. Feel free to choose one that are convenient for you. 
+From both sources above, files are identical. Feel free to choose one that is convenient for you. 
 
 Extract all data above to get 111 YUV files and 888 DAT files. Then execute "extractCUDepthGrndTruthCPHInter.m" to generate all the samples.
 
