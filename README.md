@@ -11,7 +11,7 @@ Next, all images are encoded by the HEVC reference software HM 16.5 [3]. Specifi
 
 In total, the CPH-Intra database contains 12 sub-databases according to QP and CU size, on account that 4 QPs are applied and CUs with 3 different sizes (64×64, 32×32 and 16×16) are allowed to be split.
 
-To download original images and labels (compressed in 8 files), visit:
+To download original images and labels (compressed in 8 files), visit Google Drive:
 
 https://drive.google.com/open?id=0B-x4IFNM0upjWmllNDdnc182dlU
 
@@ -28,6 +28,14 @@ https://drive.google.com/open?id=0B-x4IFNM0upjNzl5SGtqOTB3WG8
 https://drive.google.com/open?id=0B-x4IFNM0upjSVh0NEgtRXV0ajQ
 
 https://drive.google.com/open?id=0B-x4IFNM0upjY2JDclFsZEtjdU0
+
+or DropBox:
+
+https://www.dropbox.com/sh/eo5dc3h27t41etl/AAADvFKoc5nYcZw6KO9XNycZa?dl=0
+
+or Baidu Cloud Disk:
+
+From all the sources above, files are identical. Feel free to choose one that are convenient for you. 
 
 Extract all data above to get 12 YUV files and 8 DAT files. Then execute "extractCUDepthGrndTruthCPHIntra.m" to generate all the samples.
 
