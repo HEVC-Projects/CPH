@@ -49,6 +49,10 @@ From both sources above, files are identical. Feel free to choose one that is co
 
 Extract all data above to get 111 YUV files and 888 DAT files. Then execute "extractCUDepthGrndTruthCPHInter.m" to generate all the samples.
 
+## Source Codes
+
+Source codes are available for testing our deep ETH-CNN + ETH-LSTM based approach, at AI and LDP configurations. For more information, please visit: https://github.com/tianyili2017/HEVC-Complexity-Reduction
+
 ## References
 
 If the CPH database is helpful to your research, please cite this paper:
