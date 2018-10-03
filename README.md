@@ -47,7 +47,7 @@ https://pan.baidu.com/s/1i5u2Krb
 
 From both sources above, files are identical. Feel free to choose one that is convenient for you. 
 
-Extract all data above to get 111 YUV files and 888 DAT files. Then execute "extractCUDepthGrndTruthCPHInter.m" to generate all the samples.
+Extract all data above to get 111 YUV files and 888\*3 DAT files (for the LDP, LDB and RA configurations). Then execute "extractCUDepthGrndTruthCPHInter.m" to generate all the samples.
 
 ## Source Codes
 
