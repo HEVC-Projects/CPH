@@ -35,6 +35,8 @@ We further establish a database for CU Partition of HEVC at Inter-mode: the CPH-
 
 Similar to the CPH-Intra database, all sequences in our CPH-Inter database were encoded by HM 16.5 with Low Delay P configuration (using encoder_lowdelay_P_main.cfg) at four QPs {22, 27, 32, 37}. Consequently, 12 sub-databases were obtained, corresponding to different QPs and CU sizes. 
 
+Similar to the CPH-Intra database, all sequences in our CPH-Inter database were encoded by HM 16.5 at four QPs {22, 27, 32, 37}. Now, the data for all three configurations of inter-modes have been open, containing that for the Low Delay P, Low Delay B and Random Access configurations (using encoder\_lowdelay\_P\_main.cfg, encoder\_lowdelay\_main.cfg and encoder\_randomaccess\_main.cfg, respectively).
+
 To download the original YUV files (compressed in 31 files) with corresponding labels (compressed in 1 file), visit
 
 Dropbox:
